@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_finance_design/screeens/intro_screen.dart';
 import 'package:flutter_finance_design/widgets/home_widgets/balance_widget.dart';
 import 'package:flutter_finance_design/widgets/home_widgets/budget_widget.dart';
 import 'package:flutter_finance_design/widgets/home_widgets/cash_widget.dart';
@@ -59,7 +60,14 @@ class HomeScreen extends StatelessWidget {
       ),
       floatingActionButton: FloatingActionButton(
         backgroundColor: const Color.fromRGBO(78, 97, 182, 1),
-        onPressed: () {},
+        onPressed: () {
+          Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => const IntroScreen(),
+            ),
+          );
+        },
         child: const Icon(
           Icons.add,
           color: Color.fromRGBO(255, 255, 255, 1),

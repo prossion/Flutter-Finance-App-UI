@@ -1,6 +1,5 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_finance_design/screeens/home_screen.dart';
-import 'package:flutter_finance_design/screeens/intro_screen.dart';
 
 void main() {
   runApp(const MyApp());
