@@ -1,6 +1,9 @@
-# flutter_finance_design
+# Flutter-Finance-App-UI
 
-A new Flutter project.
+The user interface is made on Flutter based on this [template](https://www.figma.com/file/ybwUQJ20aUh11uGjCMhjrh/Budget-planer-app-%26-Finance-App-(Community)?node-id=1022%3A299&t=S1RoV3tjEzBptfkp-0)
+
+<p align="center">
+     <img src="screenshots/template.jpg" alt="Image" />
 
 ## Getting Started
 
